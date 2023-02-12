@@ -28,7 +28,9 @@ export default function DealOfTheDay(){
 
 const styles = StyleSheet.create({
   dealOfTheDayContainer:{
-    padding:10
+    padding:10,
+    borderBottomWidth:5,
+    borderBottomColor:"lightgray"
   },
   dealOfTheDayHeader:{
     marginBottom:10
